@@ -1,0 +1,27 @@
+/* Reset */
+ul, ol {
+    margin: 15px 0;
+    padding: 0 0 0 30px;
+    li {
+        padding: 0;
+        margin: 0;
+		a{
+			color: #171721;
+			&:hover{
+				color: @main-color;
+			}
+		}
+		> ul, > ol {
+			margin: 0;
+		}
+    }
+	&.bt-disc {
+		list-style-type: disc;
+	}
+	&.bt-circle {
+		list-style-type: circle;
+	}
+	&.bt-square {
+		list-style-type: square;
+	}
+}
